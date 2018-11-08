@@ -1,0 +1,102 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/vr/vr",
+    "pages/about_us/about_us",  
+    "pages/hotel/hotel1",
+    "pages/hotel/hotel2",
+    "pages/hotel/hotel3",
+    "pages/hotel/hotel4",
+    
+    "pages/room/xz1",
+    "pages/room/xz2",
+    "pages/room/xz3",
+
+    "pages/food/f1",
+    "pages/food/f2",
+    "pages/food/f3",
+    "pages/food/f4",
+
+    "pages/school/s1",
+    "pages/school/s2",
+    "pages/school/s3",
+    "pages/school/s5",
+    "pages/school/s7",
+    "pages/school/s8",
+
+    "pages/decoration/c1",
+    "pages/decoration/c2",
+    "pages/decoration/c3",
+    "pages/decoration/c4",
+    "pages/decoration/c5",
+
+    "pages/scene/s1",
+    "pages/scene/s2",
+    "pages/scene/s3",
+
+    "pages/car/car",
+
+    "pages/industry/i1",
+    "pages/industry/i2",
+    "pages/industry/i3",
+    "pages/industry/i4",
+    "pages/industry/i5",
+    "pages/industry/i6",
+    "pages/industry/i7",
+    "pages/industry/i8",
+    "pages/industry/i9",
+
+    "pages/business/b1",
+    "pages/business/b2",
+    "pages/business/b3",
+    "pages/business/b4",
+    "pages/business/b5",
+    "pages/business/b6",
+
+    "pages/news/n1",
+    "pages/news/n2",
+    "pages/news/n3",
+    "pages/news/n4"
+
+
+    
+
+
+    
+    
+
+    
+
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#70e966",
+    "navigationBarTitleText": "新看点VR",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#70e966",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabBar/index.png",
+        "selectedIconPath": "images/tabBar/index1.jpg"
+      },
+      {
+        "pagePath": "pages/vr/vr",
+        "text": "VR全景",
+        "iconPath": "images/tabBar/vr.jpg",
+        "selectedIconPath": "images/tabBar/vr1.jpg"
+      },
+      {
+        "pagePath": "pages/about_us/about_us",
+        "text": "关于我们",
+        "iconPath": "images/tabBar/about_us.png",
+        "selectedIconPath": "images/tabBar/about_us1.png"
+      }
+    ]
+  }
+}

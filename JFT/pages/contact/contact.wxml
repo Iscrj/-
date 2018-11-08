@@ -1,0 +1,37 @@
+<image src="https://wxtest.818qj.com/crj/jft/contact.png" class="img"></image>
+<view class='title'>团购使用规则</view>
+<view class='contanct'>
+  <image src='https://wxtest.818qj.com/crj/jft/point.png' class='point'></image>
+  <view class='tip'>团购用户暂不享受店内其他优惠</view>
+
+</view>
+
+<view class='title'>温馨提示</view>
+<view class='contanct'>
+  <image src='https://wxtest.818qj.com/crj/jft/point.png' class='point'></image>
+  <view class='tip'>提供收费停车位，具体费用根据停车场收费标准收取费用，请详询商家。</view>
+</view>
+<view class='contanct'>
+  <image src='https://wxtest.818qj.com/crj/jft/point.png' class='point'></image>
+  <view class='tip'>提供免费WIFI</view>
+</view>
+
+
+
+
+<view class='title'>联系我们</view>
+<view class='contanct'>
+  <image src='https://wxtest.818qj.com/crj/jft/location.png' class='pos'></image>
+  <view class='timeText'>昆山市震川西路18号巴黎春天百货一楼沿街（正门向西20米）</view>
+  <image src='https://wxtest.818qj.com/crj/jft/right.jpg' class='right' bindtap='chooseLocation'></image>
+</view>
+<view class='contanct'>
+  <image src='https://wxtest.818qj.com/crj/img/contact/time.png' class='pos'></image>
+  <view class='timeText'>9:00-22:00</view>
+</view>
+<view class='contanct'>
+  <image src='https://wxtest.818qj.com/crj/img/contact/phone.png' class='pos'></image>
+  <view class='timeText'>0512-57593868</view>
+  <image src='https://wxtest.818qj.com/crj/jft/right.jpg' class='right' bindtap='calling'></image>
+</view>
+

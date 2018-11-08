@@ -1,0 +1,70 @@
+/* pages/about_us/about_us.wxss */
+ .swiper {
+  height: 350rpx;
+  width: 100%;
+}
+.swiper image {
+
+  width: 100%;
+} 
+
+.vr{
+  position: absolute;
+  z-index: 9999;
+  width: 46rpx;
+  height: 69rpx;
+  left: 40rpx;
+  top: 260rpx;
+}
+
+.logo{
+  position: absolute;
+  top: 350rpx;
+  width: 150rpx;
+  height: 130rpx;
+  right: 30rpx;
+}
+.title{
+  height: 30rpx;
+  line-height: 30rpx;
+  font-size: 30rpx;
+  border-left: 8rpx solid orange;
+  margin-left: 40rpx;
+  margin-top: 60rpx;
+  padding-left: 30rpx;
+  color: orange;
+}
+
+.contanct{
+  display: -webkit-flex;
+  margin: 35rpx 0 30rpx 30rpx;
+  line-height: 30rpx;
+  padding-left: 10rpx;
+}
+
+.pos{
+  width: 30rpx;
+  height: 30rpx;
+  margin-top: 5rpx;
+}
+
+.timeText{
+  font-size: 30rpx;
+  margin-left: 30rpx;
+  margin-top: 6rpx;
+  width: 590rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.right1{
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.right2{
+  width: 40rpx;
+  height: 40rpx;
+}
+

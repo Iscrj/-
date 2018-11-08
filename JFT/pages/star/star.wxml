@@ -1,0 +1,29 @@
+<view class="title">台湾伴手礼</view>
+<view class='content'>
+  <view class='scene' wx:for="{{bsl}}" wx:key="key" >
+      <image src='{{item.id}}' class='img1'></image> 
+      <view class='little_title'>
+        <view class='text'>{{item.name}}</view>
+      </view> 
+  </view>
+</view>
+
+<view class="title">热卖面包</view>
+<view class='content'>
+  <view class='scene' wx:for="{{bread}}" wx:key="key" >
+      <image src='{{item.id}}' class='img1'></image> 
+      <view class='little_title'>
+        <view class='text'>{{item.name}}</view>
+      </view> 
+  </view>
+</view>
+
+<view class="title">人气蛋糕</view>
+<view class='content'>
+  <view class='scene' wx:for="{{dg}}" wx:key="key" >
+      <image src='{{item.id}}' class='img1'></image> 
+      <view class='little_title'>
+        <view class='text'>{{item.name}}</view>
+      </view> 
+  </view>
+</view>

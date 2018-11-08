@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/vr/vr",
+    "pages/star/star",
+    "pages/new/new",
+    "pages/weidian/weidian",
+    "pages/contact/contact"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f5a100",
+    "navigationBarTitleText": "几分甜烘焙坊",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#adadad",
+    "selectedColor": "#f5a100",
+    "list": [
+      {
+        "pagePath": "pages/vr/vr",
+        "text": "店铺VR",
+        "iconPath": "/images/tabBar/1.png",
+        "selectedIconPath": "/images/tabBar/1-1.png"
+      },
+      {
+        "pagePath": "pages/new/new",
+        "text": "品牌故事",
+        "iconPath": "/images/tabBar/2.png",
+        "selectedIconPath": "/images/tabBar/2-2.png"
+      },
+      {
+        "pagePath": "pages/star/star",
+        "text": "明星产品",
+        "iconPath": "/images/tabBar/3.png",
+        "selectedIconPath": "/images/tabBar/3-3.png"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "text": "关于我们",
+        "iconPath": "/images/tabBar/4.png",
+        "selectedIconPath": "/images/tabBar/4-4.png"
+      }
+    ]
+  }
+}

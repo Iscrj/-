@@ -1,0 +1,44 @@
+<view class='main'>
+  <!--人气商品  -->
+  <view>
+    <view class='renqi'>
+      <view class='line1'></view>
+      <view class="goods">
+        <view class='goods_h'>人气商品</view>
+        <view class='goods_b'>POPULAR GOODS</view>
+      </view>
+      <view class='line2'></view>
+    </view> 
+    <view class='content'>
+      <view wx:for="{{renqi}}" wx:key>
+        <view class='scene'>
+          <image src='{{item.img}}' class='img1'></image>
+          <image src='https://wxtest.818qj.com/crj/TGSC/images/hot.png' class='img2'></image>
+          <view class='name'>{{item.name}}</view>
+          <view class='title'>{{item.title}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view>
+    <view class='renqi'>
+      <view class='line1'></view>
+      <view class="goods">
+        <view class='goods_h'>精品推荐</view>
+        <view class='goods_b'>RECOMMENGED GOODS</view>
+      </view>
+      <view class='line2'></view>
+    </view> 
+    <scroll-view scroll-x="true" style=" white-space: nowrap; display: flex" >
+      <view style="display: inline-block" wx:for="{{renqi}}" wx:key>
+        <view class='scene2'>
+          <image src='{{item.img}}' class='img3'></image>
+          <view class='info'>
+            <view>{{item.name}}</view>
+            <view class='title2'>{{item.title}}</view>
+          </view>
+        </view>    
+      </view>
+    </scroll-view>
+  </view>
+</view>

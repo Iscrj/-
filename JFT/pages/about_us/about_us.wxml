@@ -1,0 +1,97 @@
+<swiper class="swiper" indicator-dots="true" indicator-color='#fff' indicator-active-color='#37D0C0' autoplay="true" interval="5000" duration="1000">    
+  <block wx:for="{{imgUrls}}" wx:key="key">    
+    <swiper-item>    
+      <image src="{{item}}" class="slide-image" mode="aspectFill"/>    
+    </swiper-item>    
+  </block>    
+</swiper>  
+
+
+<navigator url="../index/index">
+  <image src='../images/vr.png' class='vr'></image>
+</navigator>
+<image src='https://wxtest.818qj.com/crj/img/sp.jif'></image>
+
+<image src='../images/logo.png' class='logo'></image>
+<view class='title'>泰州五一路店</view>
+<view class='contanct'>
+  <image src='https://wxtest.818qj.com/crj/img/contact/location.png' class='pos'></image>
+  <view class='timeText'>泰州市海陵北路143-145号（泰州市幼儿园斜对面）</view>
+  <image src='../images/right.jpg' class='right1' bindtap='chooseLocation1'></image>
+</view>
+<view class='contanct'>
+  <image src='https://wxtest.818qj.com/crj/img/contact/time.png' class='pos'></image>
+  <view class='timeText'>7:30-22:00</view>
+</view>
+<view class='contanct'>
+  <image src='https://wxtest.818qj.com/crj/img/contact/phone.png' class='pos'></image>
+  <view class='timeText'>0523-86504777</view>
+  <image src='../images/right.jpg' class='right2' bindtap='calling1'></image>
+</view>
+
+<view class='title'>江阴国购店</view>
+<view class='contanct'>
+  <image src='https://wxtest.818qj.com/crj/img/contact/location.png' class='pos'></image>
+  <view class='timeText'>江阴市国际购物中心B1F</view>
+  <image src='../images/right.jpg' class='right1' bindtap='chooseLocation2'></image>
+</view>
+<view class='contanct'>
+  <image src='https://wxtest.818qj.com/crj/img/contact/time.png' class='pos'></image>
+  <view class='timeText'>9:00-22:00</view>
+</view>
+<view class='contanct'>
+  <image src='https://wxtest.818qj.com/crj/img/contact/phone.png' class='pos'></image>
+  <view class='timeText'>0510-86177177</view>
+  <image src='../images/right.jpg' class='right2' bindtap='calling2'></image>
+</view>
+
+<view class='title'>江阴万达店</view>
+<view class='contanct'>
+  <image src='https://wxtest.818qj.com/crj/img/contact/location.png' class='pos'></image>
+  <view class='timeText'>江阴市人民西路307号万达广场负一楼商业街</view>
+  <image src='../images/right.jpg' class='right1' bindtap='chooseLocation3'></image>
+</view>
+<view class='contanct'>
+  <image src='https://wxtest.818qj.com/crj/img/contact/time.png' class='pos'></image>
+  <view class='timeText'>8:00-21:30</view>
+</view>
+<view class='contanct'>
+  <image src='https://wxtest.818qj.com/crj/img/contact/phone.png' class='pos'></image>
+  <view class='timeText'>17715680613</view>
+  <image src='../images/right.jpg' class='right2' bindtap='calling3'></image>
+</view>
+
+
+<view class='title'>湖南株洲店</view>
+<view class='contanct'>
+  <image src='https://wxtest.818qj.com/crj/img/contact/location.png' class='pos'></image>
+  <view class='timeText'>湖南株洲新华西路大汉悦中心A104</view>
+  <image src='../images/right.jpg' class='right1' bindtap='chooseLocation4'></image>
+</view>
+<view class='contanct'>
+  <image src='https://wxtest.818qj.com/crj/img/contact/time.png' class='pos'></image>
+  <view class='timeText'>9:00-22:00</view>
+</view>
+<view class='contanct'>
+  <image src='https://wxtest.818qj.com/crj/img/contact/phone.png' class='pos'></image>
+  <view class='timeText'>0731-22325568</view>
+  <image src='../images/right.jpg' class='right2' bindtap='calling4'></image>
+</view>
+
+<view class='title'>扬州三盛店</view>
+<view class='contanct'>
+  <image src='https://wxtest.818qj.com/crj/img/contact/location.png' class='pos'></image>
+  <view class='timeText'>扬州市三盛国际广场1楼4号门沿金街</view>
+  <image src='../images/right.jpg' class='right1' bindtap='chooseLocation5'></image>
+</view>
+<view class='contanct'>
+  <image src='https://wxtest.818qj.com/crj/img/contact/time.png' class='pos'></image>
+  <view class='timeText'>10:00-22:00</view>
+</view>
+<view class='contanct'>
+  <image src='https://wxtest.818qj.com/crj/img/contact/phone.png' class='pos'></image>
+  <view class='timeText'>17751357997</view>
+  <image src='../images/right.jpg' class='right2' bindtap='calling5'></image>
+</view>
+
+

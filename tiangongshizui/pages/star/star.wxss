@@ -1,0 +1,102 @@
+/* pages/star/star.wxss */
+.main{
+  margin: 0;
+  padding: 0 30rpx;
+}
+
+.renqi{
+  display: -webkit-flex;
+  margin: 20rpx 0 22rpx 0;
+ 
+}
+
+.line1{
+  height: 2rpx;
+  background-color: #ccc;
+  width: 70pt;
+  margin: 30rpx 20rpx 0 25rpx;
+}
+
+.line2{
+  height: 2rpx;
+  background-color: #ccc;
+  width: 70pt;
+  margin: 30rpx 25rpx 0 20rpx;
+}
+
+.goods{
+  text-align: center;
+  flex: 1
+}
+
+.goods_h{
+  font-size: 45rpx;
+  letter-spacing: 6rpx;
+}
+
+.goods_b{
+  font-size: 30rpx;
+  color:#ccc;
+  letter-spacing: 2rpx;
+}
+
+.content{
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
+
+.scene{
+  width: 300rpx;
+  position: relative;
+  margin: 20rpx 23rpx;
+  display: inline-block;
+}
+
+.scene2{
+  width: 300rpx;
+  position: relative;
+  margin: 20rpx 15rpx;
+}
+
+.img1{
+  width: 300rpx;
+  height: 290rpx;
+  border-radius: 5pt;
+  box-shadow: 2rpx 2rpx 2rpx #ccc;
+}
+
+.img2{
+  position: absolute;
+  width: 66rpx;
+  height: 44rpx;
+  bottom: 150rpx;
+  right: -12rpx;
+}
+
+.img3{
+  width: 300rpx;
+  height: 290rpx;
+  border-radius: 5pt;
+  box-shadow: 2rpx 2rpx 2rpx #ccc;
+}
+
+.name{
+  font-size: 30rpx;
+  margin: 14rpx 0 0 0;
+}
+
+.title{
+  font-size: 30rpx;
+  color: #ccc;
+}
+
+.title2{
+  color: #ccc;
+  padding: 0 0 0 10rpx;
+}
+
+.info{
+  display: -webkit-flex;
+  margin: 20rpx 0 0 0;
+  font-size: 28rpx;
+}

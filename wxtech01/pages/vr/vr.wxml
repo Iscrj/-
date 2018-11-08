@@ -1,0 +1,48 @@
+<!--pages/vr/vr.wxml-->
+<swiper class="swiper" indicator-dots="true" indicator-color='#fff' indicator-active-color='#37D0C0' autoplay="true" interval="5000" duration="1000">    
+  <block wx:for="{{imgUrls}}" wx:key="key">    
+    <swiper-item>    
+      <image src="{{item}}" class="slide-image" mode="aspectFill"/>    
+    </swiper-item>    
+  </block>    
+</swiper> 
+
+<!-- <button bindtap='ceshi'>ceshi</button> -->
+
+<!-- <view class='search'>
+  <view class='searchInput'>
+    <input placeholder='请输入搜索关键字' placeholder-class='placeholderCss' bindinput='searchValue'></input>
+  </view>
+  <button class='searchBtn' size='mini' bindtap='searchBtn'>搜索</button>
+</view> -->
+
+<view class='nav'>
+  <view class='navBtn' wx:for="{{cateItems}}" wx:key="key">
+    <button size='mini' class="{{curNav == item.cate_id ? 'is_checked':'normal'}}" bindtap="switchRightTab"  data-index="{{index}}" data-id="{{item.cate_id}}">{{item.cate_name}}</button>
+  </view>  
+</view>
+
+<view class="container">
+  <view class='content' wx:if="{{cateItems[curIndex].ishaveChild}}">
+    <view class='scene' wx:for="{{cateItems[curIndex].children}}" wx:key="key">
+      <navigator url='{{item.hotelUrl}}'>
+        <image src='{{item.img}}' class='img1'></image> 
+        <view class='little_title'>
+          <image src='../../images/tabBar/logo.png' class='img2'></image>
+          <view class='text'>{{item.name}}</view>
+        </view> 
+        <view class='read'>
+          <view>阅读：{{item.reading}}</view>
+          <view>点赞：{{item.zan}}</view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+ <!--如果无数据，则显示数据-->
+  <view class="nodata_text" wx:else>{{nothing}}</view>  
+</view>
+<view class='footer'>
+    <view class='line'></view>
+    <view class='header'>没有更多了</view>
+    <view class='line'></view>
+</view>

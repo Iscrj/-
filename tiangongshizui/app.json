@@ -1,0 +1,47 @@
+{
+  "pages": [
+    
+    "pages/vr/vr",
+    "pages/new/new",
+    "pages/star/star",
+    "pages/star/s1",
+    "pages/contact/contact",
+    "pages/form/form"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "天工拾萃",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#adadad",
+    "selectedColor": "#d2ae6a",
+    "list": [
+      {
+        "pagePath": "pages/vr/vr",
+        "text": "门店",
+        "iconPath": "/images/t1.png",
+        "selectedIconPath": "/images/t1-1.png"
+      },
+      {
+        "pagePath": "pages/new/new",
+        "text": "品牌",
+        "iconPath": "/images/t2.png",
+        "selectedIconPath": "/images/t2-2.png"
+      },
+      {
+        "pagePath": "pages/star/star",
+        "text": "精品",
+        "iconPath": "/images/t3.png",
+        "selectedIconPath": "/images/t3-3.png"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "text": "联系",
+        "iconPath": "/images/t4.png",
+        "selectedIconPath": "/images/t4-4.png"
+      }
+    ]
+  }
+}

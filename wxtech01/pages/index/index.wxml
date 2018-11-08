@@ -1,0 +1,173 @@
+<!--index.wxml-->
+<!-- <swiper class="swiper" indicator-dots="true" indicator-color='#fff' indicator-active-color='#37D0C0' autoplay="true" interval="5000" duration="1000">    
+  <block wx:for="{{imgUrls}}" wx:key="key">    
+    <swiper-item>    
+      <image src="{{item}}" class="slide-image" mode="aspectFill"/>    
+    </swiper-item>    
+  </block>    
+</swiper>    
+
+<view class="container">
+  <view class='title'>
+    <view class='line'></view>
+    <view class='header'>优秀案例</view>
+    <view class='line'></view>
+  </view>
+  <view class='tab'>酒店</view>
+  <view class='content'>
+    <view class='scene' wx:for="{{hotel}}" wx:key="key" >
+      <navigator url='{{item.hotelUrl}}'>
+        <image src='{{item.id}}' class='img1'></image> 
+        <view class='little_title'>
+          <image src='../../images/tabBar/logo.png' class='img2'></image>
+          <view class='text'>{{item.name}}</view>
+        </view> 
+      </navigator>
+    </view>
+  </view>
+  <view class='tab'>餐饮</view>
+  <view class='content'>
+    <view class='scene' wx:for="{{food}}" wx:key="key">
+      <navigator url='{{item.hotelUrl}}'>
+        <image src='{{item.id}}' class='img1'></image> 
+        <view class='little_title'>
+          <image src='../../images/tabBar/logo.png' class='img2'></image>
+          <view class='text'>{{item.name}}</view>
+        </view> 
+      </navigator>
+    </view>
+  </view>
+  <view class='tab'>民宿</view>
+  <view class='content'>
+    <view class='scene' wx:for="{{room}}" wx:key="key">
+      <navigator url='{{item.hotelUrl}}'>
+        <image src='{{item.id}}' class='img1'></image> 
+        <view class='little_title'>
+          <image src='../../images/tabBar/logo.png' class='img2'></image>
+          <view class='text'>{{item.name}}</view>
+        </view>
+      </navigator> 
+    </view>
+  </view>
+  <view class='tab'>学校</view>
+  <view class='content'>
+    <view class='scene' wx:for="{{school}}" wx:key="key">
+      <navigator url='{{item.hotelUrl}}'>
+        <image src='{{item.id}}' class='img1'></image> 
+        <view class='little_title'>
+          <image src='../../images/tabBar/logo.png' class='img2'></image>
+          <view class='text'>{{item.name}}</view>
+        </view>
+      </navigator> 
+    </view>
+  </view>
+  <view class='tab'>景区</view>
+  <view class='content'>
+    <view class='scene' wx:for="{{tour}}" wx:key="key">
+      <navigator url='{{item.hotelUrl}}'>
+        <image src='{{item.id}}' class='img1'></image> 
+        <view class='little_title'>
+          <image src='../../images/tabBar/logo.png' class='img2'></image>
+          <view class='text'>{{item.name}}</view>
+        </view>
+      </navigator> 
+    </view>
+  </view>
+  <view class='tab'>汽车</view>
+  <view class='content'>
+    <view class='scene' wx:for="{{car}}" wx:key="key">
+      <navigator url='{{item.hotelUrl}}'>
+        <image src='{{item.id}}' class='img1'></image> 
+        <view class='little_title'>
+          <image src='../../images/tabBar/logo.png' class='img2'></image>
+          <view class='text'>{{item.name}}</view>
+        </view>
+      </navigator> 
+    </view>
+  </view>
+  <view class='tab'>商圈</view>
+  <view class='content'>
+    <view class='scene' wx:for="{{business}}" wx:key="key">
+      <navigator url='{{item.hotelUrl}}'>
+        <image src='{{item.id}}' class='img1'></image> 
+        <view class='little_title'>
+          <image src='../../images/tabBar/logo.png' class='img2'></image>
+          <view class='text'>{{item.name}}</view>
+        </view>
+      </navigator> 
+    </view>
+  </view>
+  <view class='tab'>泛行业</view>
+  <view class='content'>
+    <view class='scene' wx:for="{{industry}}" wx:key="key">
+      <navigator url='{{item.hotelUrl}}'>
+        <image src='{{item.id}}' class='img1'></image> 
+        <view class='little_title'>
+          <image src='../../images/tabBar/logo.png' class='img2'></image>
+          <view class='text'>{{item.name}}</view>
+        </view>
+      </navigator> 
+    </view>
+  </view>
+  <view class='tab'>新闻</view>
+  <view class='content'>
+    <view class='scene' wx:for="{{news}}" wx:key="key">
+      <navigator url='{{item.hotelUrl}}'>
+        <image src='{{item.id}}' class='img1'></image> 
+        <view class='little_title'>
+          <image src='../../images/tabBar/logo.png' class='img2'></image>
+          <view class='text'>{{item.name}}</view>
+        </view>
+      </navigator> 
+    </view>
+  </view>
+  <view class='tab'>企业</view>
+  <view class='content'>
+    <view class='scene' wx:for="{{qiye}}" wx:key="key">
+      <navigator url='{{item.hotelUrl}}'>
+        <image src='{{item.id}}' class='img1'></image> 
+        <view class='little_title'>
+          <image src='../../images/tabBar/logo.png' class='img2'></image>
+          <view class='text'>{{item.name}}</view>
+        </view>
+      </navigator> 
+    </view>
+  </view>
+  <view class='tab'>家装</view>
+  <view class='content'>
+    <view class='scene' wx:for="{{decoration}}" wx:key="key">
+      <navigator url='{{item.hotelUrl}}'>
+        <image src='{{item.id}}' class='img1'></image> 
+        <view class='little_title'>
+          <image src='../../images/tabBar/logo.png' class='img2'></image>
+          <view class='text'>{{item.name}}</view>
+        </view>
+      </navigator> 
+    </view>
+  </view>
+  <view class='tab'>连锁</view>
+  <view class='content'>
+    <view class='scene' wx:for="{{chain}}" wx:key="key">
+      <navigator url='{{item.hotelUrl}}'>
+        <image src='{{item.id}}' class='img1'></image> 
+        <view class='little_title'>
+          <image src='../../images/tabBar/logo.png' class='img2'></image>
+          <view class='text'>{{item.name}}</view>
+        </view>
+      </navigator> 
+    </view>
+  </view>
+  <view class='footer'>
+    <view class='line'></view>
+    <view class='header'>没有更多了</view>
+    <view class='line'></view>
+  </view>
+</view>
+ -->
+
+<image src='https://wxtest.818qj.com/crj/xkd/img/banner/index.jpg' class='indexImg'></image>
+<!-- <view  wx:for="{{sz}}" wx:key="key">
+    <button size='mini' class="{{curNav == item.cate_id ? 'is_checked':'normal'}}" bindtap="switchRightTab"  data-index="{{index}}" data-id="{{item.cate_id}}">{{item}}</button>
+  </view>   -->
+ 
+  <button bindtap='payfor'>支付</button> 

@@ -1,0 +1,34 @@
+.title{
+  font-size: 33rpx;
+  font-weight: bold;
+  color: #f5a100;
+  letter-spacing: 2rpx;
+  margin: 50rpx 0 0 30rpx;
+  border-left: 8rpx solid #f5a100;
+  padding-left: 20rpx;
+  height: 35rpx;
+  line-height: 35rpx;
+}
+
+.content{
+  margin: 30rpx 30rpx 0 30rpx;
+  letter-spacing: 2rpx;
+  font-size: 28rpx;
+  text-indent: 2em;
+  text-align: justify;
+  line-height: 45rpx;
+}
+
+.img{
+  width: 690rpx;
+  height: 271rpx;
+  padding: 30rpx 30rpx 0;
+}
+
+.story{
+  margin: 30rpx 30rpx 0 30rpx;
+  letter-spacing: 2rpx;
+  font-size: 28rpx;
+  text-indent: 2em;
+  text-align: justify;
+}

@@ -1,0 +1,84 @@
+<view class='main'>
+  <!--头部  -->
+  <view class='header'>
+    <view class='header_l'>
+      <view class='name'>叶海林</view>
+      <view class='location'>江苏, 苏州</view>
+    </view>
+    <view class='header_r'>
+      <image src='https://wxtest.818qj.com/crj/TGSC/images/writer.jpg' class='img'></image>
+    </view>
+  </view>
+  <!-- 创始人信息 -->
+  <view class='writer'>
+    <view class='writer_header'>
+      <view class='line1'></view>
+      <view class='about'>关于创始人</view>
+      <view class='line2'></view>
+    </view> 
+    <view class='content'>
+    叶海林，中国玉石雕刻高级技师（一级），海派玉雕大师，中国艺术品鉴定师。2008年于苏州创立玉语凡音玉雕创作工作室，任首席设计师。
+    </view> 
+    <view class='content'>
+    作品主要以汉传、藏传（密宗）佛造像为主，兼花鸟山水为辅。其创作的弥勒佛作品，弥勒袒胸露肚，大腹便便，耳垂如珠，略显夸张的表现手法将弥勒饱满圆融的特征彰显淋漓，弥勒眉弯眼笑，天真乐观的笑容极具感染力。      
+    </view>
+    <view class='content'>中央电视台、《中国宝玉石》杂志等国内一流媒体多次采访报道。作品屡次在国内各大重要玉石雕刻大赛中，屡获殊荣。故土牵系,姑苏浸染，使其作品有厚朴雅风，细工巧思，所雕人物尽显其神，倏出其韵，给人耳目一新之感。
+    </view> 
+  </view>
+
+  <!-- 品牌故事  -->
+  <view>
+    <view class='title'>品牌故事</view>
+    <view class='yy'>
+      <image src='https://wxtest.818qj.com/crj/TGSC/images/logo.png' class='logo'></image>
+      <view>玉语凡音</view>
+    </view>
+    <view class='story_header'>
+        〖 乐记：凡音之起，由人心之动，物使之然也。感于物而动，故形于声。〗玉乃物，物有声，声声入人心。凡音之起于玉语，由心生由物声。人心感于物，物使人得道。
+    </view>
+    <view class='story_content'>
+      玉是会说话的，所以叫“玉语”。《乐记》中说：凡音之起，由人心生也。玉说的话都是直击心灵的，故心生之语为“凡音”。      玉和心灵的碰撞是“玉语凡音”的全部诠释。
+    </view>
+    <view class='story_content'>
+      海林精研佛法，深入经藏，悟佛法真谛。
+    </view>
+    <view class='story_content'>
+      海林慈悲为怀，大爱无疆，以拯救天下苍生为己任。
+    </view>
+    <view class='story_content'>
+      海林澄怀味象，深思熟虑，精雕细琢，作品更接近本真，直击观者的灵魂。
+    </view>
+    <view class='story_content'>
+      海林深入美术心理学，熟练驾驭如何通过造型、质感、节奏、韵律给观者心理上的放松，灵魂上的慰籍，智慧上的开启。
+    </view>
+    <view class='story_content'>
+      让观者通过佩戴海林的作品，同频共振，同声相和，同气相求。把吉祥，美好，慈悲，法喜，感恩，悲悯，忏悔同频给每一个收藏者。通过抚摸，把玩疗愈一个个受伤的灵魂。
+    </view>
+    <view class='story_content'>
+      我心化作身千亿，疗愈天下困顿人。
+    </view>
+  </view>
+  <view class='line'></view>
+  <!--天工拾萃  -->
+  <view>
+    <view class='title2'>工作室简介</view>
+    <view class='tiangong_content'>
+      玉语凡音玉雕工作室的创始人叶海林，2000年来到苏州涉足玉雕行业，潜心琢玉，钻研技艺。
+    </view>
+    <view class='tiangong_content'>
+      艺海浮沉数载，叶海林凭借着对佛教人物出色的领悟能力和雕刻技能，荣获河南省玉石雕刻大师和海派玉雕大师称号，同时还获得了中国玉石雕刻高级技师、中国艺术品鉴定师职称资格。
+    </view>
+    <view class='tiangong_content'>
+      2008年，叶海林创立“玉语凡音”玉雕工作室。工作室最初坐落在姑苏老城的相王弄里，而后转至园林路，于2015年春天正式迁至十全街495号至今。
+    </view>
+    <view class='tiangong_content'>
+      在经历市场的洗礼和时代的变革后，叶海林逐渐对工作室有了一个明晰的定位，从此开始主攻佛教题材的玉雕作品。
+    </view>
+    <view class='tiangong_content'>
+      玉语凡音不仅仅局限于汉传佛教的人物，对藏传佛教的人物也巧思细刻，观音、弥勒出神入化，绿度母、黄财神尤为出彩，别具匠心的“财富相随”更是绝佳上品。
+    </view>
+    <view class='tiangong_content'>
+      2011年，玉语凡音开始尝试以南红为材料进行雕刻，随后又引入绿松石、蜜蜡等材料。不断地思索，不断地尝试，玉语凡音出品的作品变得立体而丰富，逐渐蜕变成一个成熟且颇具规模的专业玉雕工作室。
+    </view>
+  </view>
+</view>  

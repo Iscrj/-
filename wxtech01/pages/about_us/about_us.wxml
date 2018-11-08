@@ -1,0 +1,98 @@
+<!--pages/about_us/about_us.wxml-->
+<!-- <swiper class="swiper" indicator-dots="true" indicator-color='#fff' indicator-active-color='#37D0C0' autoplay="true" interval="5000" duration="1000">    
+  <block wx:for="{{imgUrls}}" wx:key="key">    
+    <swiper-item>    
+      <image src="{{item}}" class="slide-image" mode="aspectFill"/>    
+    </swiper-item>    
+  </block>    
+</swiper>  -->
+  <!-- <view class='tab'>公司简介</view>
+  <view class='content'>新看点是专业的VR全景商业内容和服务提供商。新看点秉承“用VR全景技术重新定义世界”的理念，为多个垂直领域内众多客户提供优质的VR全景解决方案和相关服务；满足客户在数字化营销、在线支付、个性化业务定制等各方面的需求。同时，新看点致力与业界领先的互联网平台达成全面合作，为数百万平台商家提供优质服务。</view>
+  <view class='tab'>核心理念</view>
+  <view class='coreIdea'>
+    <view class='scene' wx:for="{{coreImgs}}" wx:key="key" >
+        <image src='{{item.imgUrl}}' class='img1'></image> 
+        <view class='main_title'>{{item.name}}</view>
+        <view class='little_title'>{{item.content}}</view>
+    </view>
+  </view> -->
+
+  <image src='https://wxtest.818qj.com/crj/xkd/img/banner/8.jpg' class='header'></image>
+  <navigator url='../hotel/hotel1'>
+    <image src='https://wxtest.818qj.com/crj/xkd/img/banner/vr.png' class='vr'></image>
+  </navigator> 
+  <view class='tab'>服务对象</view>
+  <view class='iconImg'>
+    <view class='iconContent' wx:for="{{iconImgs}}" wx:key="key" >
+        <image src='{{item.imgUrl}}' class='img2'></image> 
+        <view class='icon_name'>{{item.name}}</view>
+    </view>
+  </view> 
+          
+  <view class='tab'>联系我们</view>
+  <view class='contanct'>
+    <image src='https://wxtest.818qj.com/crj/xkd/img/contact/location.png' class='pos'></image>
+    <view class='timeText'>苏州市高新区竹园路209号苏州创业园</view>
+    <image src='../../images/tabBar/right.jpg' class='right1' bindtap='chooseLocation'></image>
+  </view>
+  <view class='contanct'>
+    <image src='https://wxtest.818qj.com/crj/xkd/img/contact/time.png' class='pos'></image>
+    <view class='timeText'>9:00-17:30</view>
+  </view>
+  <view class='contanct'>
+    <image src='https://wxtest.818qj.com/crj/xkd/img/contact/phone.png' class='pos'></image>
+    <view class='timeText'>4006622360</view>
+    <image src='../../images/tabBar/right.jpg' class='right2' bindtap='calling'></image>
+  </view>
+  <view class='contanct'>
+    <image src='https://wxtest.818qj.com/crj/xkd/img/contact/link.png' class='pos'></image>
+    <view class='timeText'>www.xkdphoto.com</view>
+  </view> 
+
+
+
+
+
+
+<!-- <view class='header1'>
+  苏州新看点信息技术有限公司
+ <image src='../../images/tabBar/logo.png'></image> 
+</view>
+<view class='underTitle'>
+  Suzhou new point information technology Co.Ltd.
+</view>
+<view class='header' bindtap='getLocation'>地址:江苏省苏州市吴中区苏州创业园4号楼18层</view>
+<view class='header'>营业时间:9:00-17:30</view>
+<view class='header' bindtap='calling'>联系方式:4006622360</view>
+<view class='header'>官网:www.xkdphoto.com</view> -->
+
+<!-- <form bindsubmit='subFn' bindreset='resetFn'>
+  <view class='contract_title'>联系我们</view>
+  <view class='formView'>
+    <view class='formInput'>
+      <input type='text' name="username" placeholder='您的姓名*' placeholder-class='placeholderCss'></input>
+    </view>
+    <view class='formInput'>
+      <input type='text' name="username" placeholder='您的电话*' placeholder-class='placeholderCss'></input>
+    </view>
+  </view>
+  <view class='formView'>
+    <view class='formInput'>
+      <input type='text' name="username" placeholder='您的QQ*' placeholder-class='placeholderCss'></input>
+    </view>
+    <view class='formInput'>
+      <input type='text' name="username" placeholder='您的邮箱*' placeholder-class='placeholderCss'></input>
+    </view>
+  </view>
+  <view class='formView'>
+    <view class='formTextarea'>
+      <textarea placeholder='您的留言*' class='textarea-placeholder'></textarea>
+    </view>
+  </view>
+  <view class='formFooter'>
+    <button size='mini' bindtap='resetModal' hover-class='btn_hover'>重置</button>
+    <button size='mini' bindtap='subModal' hover-class='btn_hover'>提交</button>
+  </view>
+</form> -->
+
+

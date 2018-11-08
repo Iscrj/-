@@ -1,0 +1,128 @@
+/* pages/new/new.wxss */
+.main{
+  margin: 0;
+  padding: 0 30rpx;
+}
+
+.header{
+  display: -webkit-flex;
+  height: 150rpx;
+  margin: 0 0 50rpx 0;
+}
+
+.header_l{
+  flex: 3
+}
+
+.header_r{
+  flex: 1;
+}
+
+.name{
+  margin:25rpx 0 10rpx 0;
+  font-size: 40rpx;
+}
+
+.location{
+  font-size: 30rpx;
+}
+
+.img{
+  width:150rpx;
+  height:150rpx;
+  border-radius: 150rpx;
+}
+
+.writer{
+  border-left: 2rpx solid #ccc;
+  border-right: 2rpx solid #ccc;
+  border-bottom: 2rpx solid #ccc;
+}
+
+.writer_header{
+  display: -webkit-flex;
+}
+
+.line{
+  height: 2rpx;
+  background-color: #ccc;
+  margin: 40rpx 0 0 0;
+}
+
+.line1{
+  height: 2rpx;
+  background-color: #ccc;
+  flex: 1
+}
+
+.line2{
+  height: 2rpx;
+  background-color: #ccc;
+  flex: 5
+}
+
+.about{
+  font-size: 28rpx;
+  padding: 0 20rpx;
+  margin: -20rpx 0 20rpx 0; 
+}
+
+.content{
+  text-indent: 2em;
+  letter-spacing: 2rpx;
+  font-size: 28rpx;
+  text-align: justify;
+  line-height: 50rpx;
+  margin: 0 20rpx;
+  
+}
+
+.title{
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #d2ae6a;
+  margin: 50rpx 0 0 0;
+}
+
+.yy{
+  font-size: 28rpx;
+  text-align: center;
+}
+
+.logo{
+  width: 250rpx;
+  height: 250rpx;
+  text-align: center;
+}
+
+.story_header{
+  letter-spacing: 2rpx;
+  font-size: 30rpx;
+  text-align: justify;
+  line-height: 50rpx;
+  font-weight: bold;
+}
+
+.story_content{
+  letter-spacing: 2rpx;
+  font-size: 30rpx;
+  text-align: justify;
+  line-height: 50rpx;
+}
+
+.title2{
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #d2ae6a;
+  margin: 50rpx 0 20rpx 0;
+}
+
+.tiangong_content{
+  letter-spacing: 2rpx;
+  font-size: 30rpx;
+  text-align: justify;
+  line-height: 50rpx;
+  text-indent: 2em;
+}
+
+

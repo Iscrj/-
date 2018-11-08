@@ -1,0 +1,56 @@
+.img{
+  width: 90%;
+  height: 240rpx;
+  margin: 30rpx auto 0;
+}
+
+.title{
+  margin-top: 50rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  font-size: 30rpx;
+  border-left: 8rpx solid orange;
+  margin-left: 40rpx;
+  padding-left: 30rpx;
+}
+
+.contanct{
+  display: -webkit-flex;
+  margin: 35rpx 0 30rpx 30rpx;
+  line-height: 30rpx;
+  padding-left: 10rpx;
+}
+
+.pos{
+  width: 30rpx;
+  height: 30rpx;
+  margin-top: 5rpx;
+}
+
+.timeText{
+  font-size: 30rpx;
+  margin-left: 30rpx;
+  margin-top: 6rpx;
+  width: 590rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.right{
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.point{
+  width: 10rpx;
+  height: 10rpx;
+  margin-top: 15rpx;
+}
+
+.tip{
+  font-size: 30rpx;
+  margin-left: 30rpx;
+  margin-top: 6rpx;
+  width: 620rpx;
+}

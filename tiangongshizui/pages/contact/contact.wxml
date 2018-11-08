@@ -1,0 +1,41 @@
+<view class='main'>
+  <!--温馨提示  -->
+  <view>
+    <view class='title'>温馨提示</view>
+    <view class='contanct'>
+      <image src='https://wxtest.818qj.com/crj/jft/point.png' class='point'></image>
+      <view class='tip'>提供收费停车位，具体费用根据停车场收费标准收取费用，请详询商家。</view>
+    </view>
+    <view class='contanct'>
+      <image src='https://wxtest.818qj.com/crj/jft/point.png' class='point'></image>
+      <view class='tip'>提供免费WIFI,茶水</view>
+    </view>
+  </view>
+  <view class='line'></view>
+  <!--联系我们  -->
+  <view class='title'>联系方式</view>
+  <view class='contanct'>
+    <image src='https://wxtest.818qj.com/crj/TGSC/images/phone.png' class='pos'></image>
+    <view class='text'>0512-88888888</view>
+  </view>
+  <view class='contanct'>
+    <image src='https://wxtest.818qj.com/crj/TGSC/images/time.png' class='pos'></image>
+    <view class='text'>9:00am-19:00pm</view>
+  </view>
+  <view class='contanct'>
+    <image src='https://wxtest.818qj.com/crj/TGSC/images/location.png' class='pos'></image>
+    <view class='text'>苏州市姑苏区竹辉路208号竹辉大厦1F天工拾萃</view>
+  </view>
+  
+</view>
+
+ <view >
+<image src='../../images/location.jpeg' class='ditu'></image>
+</view> 
+<view class='footer'>
+  <button class='btn' bindtap='toForm'>我也要创建</button>
+</view>
+
+ <!-- <map id="map" longitude="120.642657" latitude="31.302535" scale="18" markers="{{markers}}" style="width: 100%; height: 200px;"></map>  -->
+
+

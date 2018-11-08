@@ -1,0 +1,152 @@
+<view class='main'>
+  <!--头部  -->
+  <view class='header'>
+    <view class='header_l'>
+      <view class='name'>张莉君</view>
+      <view class='location'>江苏, 苏州</view>
+    </view>
+    <view class='header_r'>
+      <image src='https://pano.818qj.com/crj/TGSC/images/writer.jpeg' class='img'></image>
+    </view>
+  </view>
+  <!-- 创始人信息 -->
+  <view class='writer'>
+    <view class='writer_header'>
+      <view class='line1'></view>
+      <view class='about'>关于创始人</view>
+      <view class='line2'></view>
+    </view> 
+    <view class='content'>
+    毕业于苏州大学艺术学院，硕士学位。2006年任教于苏州工艺美术职业技术学院首饰专业副教授。上海市首饰设计协会理事。张莉君珠宝首饰工作室创始人，苏州天工拾萃珠宝首饰公司创始人。
+    </view> 
+    <view class='content'>
+    张莉君的艺术首饰是对传统首饰限制规范的一种思考，体现了具有学院风格的当代的艺术首饰特点，更加强调艺术首饰作品语言的独创性，用一种反主流的姿态表达了个性，从现实中剥离出来又反窥现实，让我们感受现实的美好。作为苏州工艺美术职业技术学院装艺系首饰专业教师，张莉君的创作多来自个人对生活的感悟，充满了回忆与感情的元素，作品突破了传统的商业首饰设计审美观念。  
+    </view> 
+  </view>
+
+  <!-- 品牌故事  -->
+  <view>
+    <view class='title'>品牌故事</view>
+    <view class='yy'>
+      <image src='https://pano.818qj.com/crj/TGSC/images/logo.jpg' class='logo'></image>
+    </view>
+    <view class='story_header' style='margin-top:20pt'>
+      拾萃，拾取翠鸟羽毛以为首饰。
+    </view>
+    <view class='story_header' style='margin-bottom:20pt;'>
+      “金络擎雕去，鸾环拾翠来。”拾萃，本就源自古意，既有历史韵味的独特味道，又有举手佩饰的动态美。
+    </view>
+    <view class='story_content'>
+      在拾萃，我们的每个制作过程都坚持全手工打造，手稿设计制图，匠人们运用古老工艺的制法、结合西方珠宝的制作理念，融合、调配、雕形、淬火、打磨……每一步都讲述了一件器物从无到有，所经历的锻造过程和细致的修饰，成为充满生命气息的故事。
+    </view>
+    <view>
+      <image src='https://pano.818qj.com/crj/TGSC/images/p1.jpg' class='pinpai_img'></image>
+    </view>
+  </view>
+  <view class='line'></view>
+  <!--天工拾萃  -->
+  <view>
+    <view class='title2'>品牌简介</view>
+    <view class='tiangong_content'>
+      天工拾萃珠宝首饰有限公司，成立于苏州市姑苏区竹辉路208号竹辉商厦，占地面积四百余平，由苏州工艺美院首饰设计专业副教授张莉君为设计监制，集合了首饰设计专业毕业的设计师，有着活力十足的设计团队，专注于首饰设计定制与制作，拥有体验店、设计工作室及独立制作工厂，一体化完成首饰珠宝定制。其中，我们设计产品受邀在苏州诚品书店进行展销，是一家集原创、服务、体验和零售为一身的综合体验店。
+    </view>
+    <view>
+      <view class='p_flex'>
+        <image src='https://pano.818qj.com/crj/TGSC/images/p2.jpg' class='p2_img'></image>
+        <image src='https://pano.818qj.com/crj/TGSC/images/p3.jpg' class='p3_img'></image>
+      </view>
+    </view>
+    <view class='tiangong_content'>
+      我们的独立设计师，来自苏州工艺美术学院首饰设计专业，以专业的视角和前沿的设计理念独立创作设计。在原创首饰设计市场中，设计风格以姑苏韵味的人文内涵为依托，亭台桥榭、黛瓦鸟雀，具有苏式特色，深受多年龄层的喜爱。
+    </view>
+    <view>
+      <image src='https://pano.818qj.com/crj/TGSC/images/p4.jpg' class='pinpai_img'></image>
+    </view>
+    <view class='tiangong_content'>
+      【高级定制】
+    </view>
+    <view class='tiangong_content'>
+      相比较传统意义上的高级定制，我们更精准的分析客户的身份特征和出席场合，结合不同彩宝及钻石的搭配与所需表达的设计理念来全新、全方位的订做高级定制的物品，私人专享，仅此一件。
+    </view>
+    <view>
+      <image src='https://pano.818qj.com/crj/TGSC/images/p5.jpg' class='pinpai_img'></image>
+    </view>
+    <view class='tiangong_content'>
+      【古物新饰】
+    </view>
+    <view class='tiangong_content'>
+      珠宝玉石老件的款式更新，拾萃首饰坚持以遵循老件的独特魅力而稍加修饰，融合传统韵味，结合当代审美和首饰理念。通过再设计或者再加工，化繁从简，承古而不拘泥于古，使首饰更适宜现代的服饰，着装方式及佩戴场合。
+    </view>
+    <view>
+      <image src='https://pano.818qj.com/crj/TGSC/images/p6.jpg' class='pinpai_img'></image>
+    </view>
+    <view class='tiangong_content'>
+      【金银加工】
+    </view>
+    <view class='tiangong_content'>
+      承接工作室或黄金品牌的加工业务，以合理的性价比和精湛的工艺为宗旨，以工价+材料费+设计费的合理定价方式，来践行消费透明的承诺。
+    </view>
+    <view>
+      <image src='https://pano.818qj.com/crj/TGSC/images/p7.jpg' class='pinpai_img'></image>
+    </view>
+    <view class='tiangong_content'>
+      【孤品复制】
+    </view>
+    <view class='tiangong_content'>
+      根据来件进行复刻制作，让您最喜欢的东西可以与他人分享，或心爱之物不慎遗失，也可根据图片，进行复刻制作。
+    </view>
+    <view>
+      <image src='https://pano.818qj.com/crj/TGSC/images/p8.jpg' class='pinpai_img'></image>
+    </view>
+    <view class='tiangong_content'>
+      【手工金银制作体验及个性DIY】
+    </view>
+    <view class='tiangong_content'>
+      我们提供有趣的金银制作体验活动，可以让您为您身边的朋友亲自手工DIY一款专属首饰，来这里，体验手工匠人的每一次的锤打锻造和细心制作的每一个瞬间。
+    </view>
+    <view>
+      <image src='https://pano.818qj.com/crj/TGSC/images/p9.jpg' class='pinpai_img'></image>
+    </view>
+    <view class='line'></view>
+    <view class='title2'>发展历程</view>
+    <view class='tiangong_content'>
+      2014年为“如果爱”节目中 明星张伦硕与钟丽缇提供首饰DIY制作体验，指导完成。
+    </view>
+    <view class='tiangong_content'>
+      2016年参与杭州G20峰会纪念产品的研发设计。
+    </view>
+    <view class='tiangong_content'>
+      2016年参加文创设计研发，为“江西井冈山红色革命基地研发制作首饰一批。
+    </view>
+    <view class='tiangong_content'>
+      2016年参与制作“紫金草国际和平纪念章”制作定制（奖章是由江苏省领导和南京市领导颁发给国际友人。为感谢国际友人在南京大屠杀期间救助南京人，揭露日军暴行的行为。2017年要由习近平主席颁发）。
+    </view>
+    <view class='tiangong_content'>
+      2016年与苏州“爱物集物”文化发展签订长期合作，制作研发系列产品。
+    </view>
+    <view class='tiangong_content'>
+      2017年签署设计北京颐和园“颐和万象”皇家文创产品的独家设计与制作。
+    </view>
+    <view class='tiangong_content'>
+      2017年3月挂牌成为“苏州工艺美术职业技术学院校外实训基地”。
+    </view>
+    <view class='tiangong_content'>
+      2017年3月挂牌成为SJD“中国玉首饰研发实验室基地”。
+    </view>
+    <view class='tiangong_content'>
+      2017年6月，获2017中国（姑苏）文创精英挑战赛命题项目类金奖。
+    </view>
+    <view class='tiangong_content'>
+      2017年6月，获全球大熊猫文化旅游商品创意大赛“大众票选人气奖”。
+    </view>
+    <view class='tiangong_content'>
+      2017年与苏州市园林局合作出品园林首饰。
+    </view>
+    <view class='tiangong_content'>
+      2017年与陕西省历史博物馆合作出品”鎏金铜蚕“系列文创产品。
+    </view>
+    <view class='tiangong_content'>
+      2018年与镇湖政府合作刺绣小镇项目，研发刺绣首饰。
+    </view>
+  </view>
+</view>  

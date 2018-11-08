@@ -1,0 +1,4 @@
+
+
+<!-- <image src='https://wxtest.818qj.com/crj/jft/erweima.png'></image> -->
+<image class='img' bindtap="previewImage" src='{{scene}}'></image>
